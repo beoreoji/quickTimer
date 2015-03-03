@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"   android:layout_width="fill_parent"   android:layout_height="fill_parent" android:background="@drawable/bg" >
+    <RelativeLayout android:orientation="vertical"   android:layout_width="fill_parent"   android:layout_height="wrap_content" android:background="@drawable/main_title">
+        <Button android:id="@+id/setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="startSetting" 
+            android:background="@drawable/btn_setting" android:layout_alignParentRight="true" android:layout_margin="20dip"/>
+    </RelativeLayout>
+   	<TextView android:id="@+id/remindTime" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+   	    android:text="00:00"	android:textSize="70sp" android:layout_gravity="center" android:layout_margin="10dip"/>
+    <RelativeLayout android:orientation="vertical"   android:layout_width="fill_parent"   android:layout_height="wrap_content" android:background="@drawable/frame_jog" 
+        android:layout_marginBottom="10dip">
+		<ImageView	android:id="@+id/spring"  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:background="@drawable/jog"
+		    android:layout_centerInParent="true" />
+    </RelativeLayout>
+    
+    <LinearLayout android:orientation="horizontal"   android:layout_width="wrap_content"  android:layout_height="wrap_content" android:layout_gravity="center">
+	    <Button android:id="@+id/p_1m"	 android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="plustime" 
+	        android:background="@drawable/btn_1min" android:layout_margin="3dip" />
+	    <Button android:id="@+id/p_10m"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="plustime" 
+	        android:background="@drawable/btn_10min" android:layout_margin="3dip" />
+    	<Button android:id="@+id/p_30m" 	android:layout_width="wrap_content"	android:layout_height="wrap_content" android:onClick="plustime" 
+    	    android:background="@drawable/btn_30min" android:layout_margin="3dip"/>
+    	<Button android:id="@+id/p_hour" 	android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="plustime" 
+    	    android:background="@drawable/btn_1hour" android:layout_margin="3dip"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"   android:layout_width="wrap_content"  android:layout_height="wrap_content" android:layout_gravity="center">
+	    <Button android:id="@+id/reset"	android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="reset" 
+	        android:layout_margin="5dip" android:background="@drawable/btn_reset" />
+    	<Button android:id="@+id/apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="apply"
+    	    android:layout_margin="5dip" android:background="@drawable/btn_start" />
+    </LinearLayout>
+    
+	<RelativeLayout  android:layout_height="fill_parent" android:layout_width="fill_parent">
+	    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/adWrapper" android:layout_alignParentBottom="true"></LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

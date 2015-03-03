@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_version">1.3.3 b2</string>
+    <string name="app_name">quickTimer</string>
+    <string name="clear">It\'s time!</string>
+    <string name="unset">Unset</string>
+    <string name="nomore">I\'m a timer</string>
+    <string name="recommend_quickmemo">Try notification feature of quickMemo</string>
+    <string name="understand">I Understand</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <string name="second">s</string>
+    <string name="okay">Okay</string>
+    <string name="dont">Don\'t</string>
+    <string name="unsetnow">Timer is set to release</string>
+    <string name="caution">Caution</string>
+    <string name="running_now">Timer is running now</string>
+    <string name="nolimit">No Limit</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+    <string name="preference">Preference</string>
+	<string name="about">About</string>    
+    <string name="pref_ringtone">Choose ringtone</string>
+    <string name="pref_sense">Sensitivity of the wheel</string>
+    <string name="pref_volSense">Sensitivity of volume key</string>
+	<string name="pref_silence">Silent mode</string>
+    <string name="pref_vibe">Use vibration</string>
+    <string name="pref_about">About quickTimer..</string>
+    <string name="pref_duration">Alarm duration</string>
+    
+    <string name="introduce">김선필이 개발하고, 한수진이가 디자인하고, 김희진이 디자인을 지원하여 만들었습니다. 사용 중 오류가 발견되면 언제든 연락주시기 바랍니다.</string>
+	<string name="staff">Developer SEONPIL KIM(beoreoji@gmail.com)\nDesigner SUJIN HAN(bwd.han@gmail.com)\nDesigner HEEJIN KIM(585858@paran.com)</string>
+</resources>

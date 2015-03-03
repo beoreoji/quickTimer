@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">急タイマー</string>
+    <string name="clear">時間になりました！</string>
+    <string name="unset">解除</string>
+    <string name="nomore">私はタイマーです</string>
+    <string name="recommend_quickmemo">急メモの通知機能を使用してください</string>
+    <string name="understand">了解しました</string>
+    <string name="hour">時</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="okay">はい</string>
+    <string name="dont">いいえ</string>
+    <string name="unsetnow">現在設定されたタイマーを解除します</string>
+    <string name="caution">注意</string>
+    <string name="running_now">急タイマー作動中</string>
+    <string name="nolimit">制限なし</string>
+    <string name="done">完了</string>
+    <string name="close">閉じる</string>
+    <string name="preference">設定</string>
+    <string name="pref_ringtone">通知音を選択する</string>
+    <string name="pref_sense">タイマー感度</string>
+    <string name="pref_volSense">ボルリュムキ使用時の単位</string>
+    <string name="pref_silence">サイレントモード</string>
+    <string name="pref_vibe">振動を使用</string>
+    <string name="pref_about">急タイマーは..</string>
+    <string name="pref_duration">通知の保持時間</string>
+    
+    <string name="introduce">SEONPIL KIMが開発し、SUJIN HANがデザインし、HEEJIN KIMがデザインをサポートして作りました。使用中にエラーが検出された場合、いつでもご連絡ください。</string>
+	<string name="staff">Developer SEONPIL KIM(beoreoji@gmail.com)\nDesigner SUJIN HAN(bwd.han@gmail.com)\nDesigner HEEJIN KIM(585858@paran.com)</string>
+</resources>

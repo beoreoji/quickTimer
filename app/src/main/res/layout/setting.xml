@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="preference_root" >
+	<PreferenceCategory
+		android:key="options"
+		android:title="Options"
+		android:enabled="true" >
+		<RingtonePreference
+			android:key="ringtone"
+			android:title="@string/pref_ringtone"
+			android:showDefault="true"
+			android:showSilent="true"
+  			android:ringtoneType="all"	 />
+		<CheckBoxPreference
+			android:key="silence"
+			android:title="@string/pref_silence" />
+		
+		<CheckBoxPreference
+			android:key="vibe"
+			android:title="@string/pref_vibe" />
+		<PreferenceScreen
+		    android:key="duration"
+		    android:title="@string/pref_duration" />
+		<ListPreference
+			android:key="sense"
+			android:title="@string/pref_sense"
+			android:entries="@array/sense"
+			android:entryValues="@array/senseValue"
+			android:defaultValue="5" />
+		<ListPreference
+			android:key="volSense"
+			android:title="@string/pref_volSense"
+			android:entries="@array/volSense"
+			android:entryValues="@array/volSenseValue"
+			android:defaultValue="1" />
+	</PreferenceCategory>
+
+   	<PreferenceCategory
+		android:key="etc"
+		android:title="Etc"
+		android:enabled="true" >
+		<PreferenceScreen
+			android:key="info"
+			android:title="@string/pref_about"/>
+    </PreferenceCategory>	
+</PreferenceScreen>
