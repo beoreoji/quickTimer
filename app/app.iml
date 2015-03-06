@@ -83,14 +83,9 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 16 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 8 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="support-v4-18.0.0" level="project" />
-    <orderEntry type="library" exported="" name="InMobiAdNetwork_3.6.2" level="project" />
-    <orderEntry type="library" exported="" name="Ad@mPublisherSDK-2.1.3.0" level="project" />
-    <orderEntry type="library" exported="" name="GoogleAdMobAdsSdk-6.4.1" level="project" />
-    <orderEntry type="library" exported="" name="FlurryAgent" level="project" />
-    <orderEntry type="library" exported="" name="InMobiCommons_3.6.1" level="project" />
   </component>
 </module>
 

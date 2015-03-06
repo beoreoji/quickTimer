@@ -29,8 +29,4 @@
     	<Button android:id="@+id/apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="apply"
     	    android:layout_margin="5dip" android:background="@drawable/btn_start" />
     </LinearLayout>
-    
-	<RelativeLayout  android:layout_height="fill_parent" android:layout_width="fill_parent">
-	    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/adWrapper" android:layout_alignParentBottom="true"></LinearLayout>
-	</RelativeLayout>
 </LinearLayout>

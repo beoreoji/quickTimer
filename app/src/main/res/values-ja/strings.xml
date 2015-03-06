@@ -28,4 +28,5 @@
     
     <string name="introduce">SEONPIL KIMが開発し、SUJIN HANがデザインし、HEEJIN KIMがデザインをサポートして作りました。使用中にエラーが検出された場合、いつでもご連絡ください。</string>
 	<string name="staff">Developer SEONPIL KIM(beoreoji@gmail.com)\nDesigner SUJIN HAN(bwd.han@gmail.com)\nDesigner HEEJIN KIM(585858@paran.com)</string>
+    <string name="about">About</string>
 </resources>

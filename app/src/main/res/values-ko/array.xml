@@ -7,11 +7,25 @@
         <item>5초</item>
         <item>1초</item>
     </string-array>
+    <string-array name="senseValue">
+        <item>30</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
     <string-array name="volSense">
         <item>1초</item>
         <item>10초</item>
         <item>30초</item>
         <item>1분</item>
         <item>5분</item>
+    </string-array>
+    <string-array name="volSenseValue">
+        <item>1</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
     </string-array>
 </resources>

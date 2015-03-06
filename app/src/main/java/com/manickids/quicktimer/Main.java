@@ -6,8 +6,6 @@ import java.util.GregorianCalendar;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import com.flurry.android.FlurryAgent;
-
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.AlarmManager;
@@ -45,7 +43,6 @@ import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Main extends Activity implements OnTouchListener {
@@ -76,7 +73,6 @@ public class Main extends Activity implements OnTouchListener {
 	float offset; // 터치위치
 	int sense, volSense; // 감도
 	boolean freeze = false;
-	AdManager adm;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -90,10 +86,6 @@ public class Main extends Activity implements OnTouchListener {
         filter.addAction(Intent.ACTION_SCREEN_OFF);
         BroadcastReceiver mReceiver = new ScreenReceiver();
         registerReceiver(mReceiver, filter);
-
-        LinearLayout adFrame = (LinearLayout)findViewById(R.id.adWrapper);
-        String locale = this.getResources().getConfiguration().locale.getLanguage();
-        adm = new AdManager(Main.this, this, adFrame, locale);
         
         vibe = (Vibrator)this.getSystemService(Service.VIBRATOR_SERVICE);
         pref = PreferenceManager.getDefaultSharedPreferences(this);
@@ -137,13 +129,7 @@ public class Main extends Activity implements OnTouchListener {
         	timer.schedule(timerTask,500,1000);
         }
     }
-	
-    @Override
-    protected void onStart(){
-    	super.onStart();
-    	FlurryAgent.onStartSession(this, "CTR9X4DM8JF8MJT9H6JQ");
-    }
-    
+
     @Override
     public void onRestart(){
     	super.onRestart();
@@ -453,13 +439,11 @@ public class Main extends Activity implements OnTouchListener {
     public void onStop(){
     	super.onStop();
     	setExit();
-    	FlurryAgent.onEndSession(this);
     }
         
     @Override
     protected void onDestroy(){
     	super.onDestroy();
-    	adm.destroy();
     	ActivityManager actm = (ActivityManager)getSystemService(ACTIVITY_SERVICE);
     	actm.restartPackage(getPackageName());
     }
